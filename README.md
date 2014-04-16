@@ -22,7 +22,7 @@ Who starts their contest page with prizes? We do!  Here's what you can win:
 What is Concur?
 -----------
 
-If you've heard of TripIt, then there's a remote chance you've heard of us. We help 25M business travelers manage their travel bookings and expense reports through the Concur Travel and Expense web/mobile app.  This allows their companies to save time, money, gain visibility and enforce compliance on their employees' expenses.  It's all about giving the business traveler a delightful and worry-free travel experience, which we like to call *The Perfect Trip*.
+If you've heard of TripIt, then there's a remote chance you've heard of us. We help 25M business travelers manage their travel bookings and expense reports through the Concur Travel and Expense web/mobile app.  This allows them and their companies to save time, money, gain visibility and enforce employee compliance on expenses.  It's all about giving the business traveler a delightful and worry-free travel experience, which we like to call *The Perfect Trip*.
 
 We also created APIs so that partners can add value and contribute to a business traveler's Perfect Trip.  That's where you come in.
 
