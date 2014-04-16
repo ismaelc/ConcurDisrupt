@@ -1,5 +1,5 @@
 
-ncur Disrupt
+Concur Disrupt
 =========
 
 This page contains information and links to all the resources you need to win the **Concur Contest** in TechCrunch Disrupt 2014 New York.  It is split into the following subsections:
