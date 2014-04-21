@@ -14,15 +14,17 @@ Prizes to win:
 
 Who starts their contest page with prizes? We do!  Here's what you can win:
 
-  - **$2,000 cash**: *Best Re-Polished App using Concur APIs* - planning to re-use a non-Concur app from a previous hackathon?  Feel free to submit them to us, as long as it's using a Concur API.
-  - **$2,000 cash**: *Best Use of Concur API* - any "new" app submission outside of the Re-Polished category
-  - **$100 cash**: *Use of Concur APIs* - each team that uses and demos the use of Concur APIs gets $100
+  - **Maximum $2,500 worth of gift cards**: *Best Re-Polished App using Concur APIs* - planning to re-use a non-Concur app from a previous hackathon?  Feel free to submit them to us, as long as it's using a Concur API (for the first time). Prize distribution is $500 to each winning team member.
+    
+  - **Maximum $2,500 worth of gift cards**: *Best Use of Concur API* - any "new" app submission outside of the Re-Polished category.  Prize distribution is $500 to each winning team member.
+    
+  - **$100 cash**: *Use of Concur APIs* - first 10 teams that registers/uses/demos the use of Concur APIs, outside of the above categories, gets $100 (per team).
     
 
 What is Concur?
 -----------
 
-If you've heard of TripIt, then there's a remote chance you've heard of us. We help 25M business travelers manage their travel bookings and expense reports through the Concur Travel and Expense web/mobile app.  This allows them and their companies to save time, money, gain visibility and enforce employee compliance on expenses.  It's all about giving the business traveler a delightful and worry-free travel experience, which we like to call *The Perfect Trip*.
+Over 25 million people in 190 countries and over 65 percent of the Fortune 500 trust Concur to process $50 billion in travel and expense data per year.  We help these 25M business travelers manage their travel bookings and expense reports through the Concur Travel and Expense web/mobile app.  This allows them and their companies to save time, money, gain visibility and enforce employee compliance on expenses.  It's all about giving the business traveler a delightful and worry-free travel experience, which we like to call *The Perfect Trip*.
 
 We also created APIs so that partners can add value and contribute to a business traveler's Perfect Trip.  That's where you come in.
 
@@ -31,7 +33,7 @@ What information can I get from the Concur APIs?
 
 **Example apps**
 
-Before we get to that question, here are 2 examples of what our partners have built using Concur APIs.  They're all listed in our [App Center](https://www.concur.com/en-us/app-center):
+Before we get to that question, let's look at 2 examples of apps that our partners have built using Concur APIs.  They're all listed in our [App Center](https://www.concur.com/en-us/app-center):
 
 - [TravelText](https://www.concur.com/en-us/partners/transaction-capture/traveltext) - TravelText allows you to text your expenses right into Concur. No more paper receipts and Excel sheet mayhem!  Don't believe us?  Check out their video demo [here](https://www.youtube.com/watch?v=sxY_PO-QKZ0).
 - [Trover](https://www.concur.com/en-us/app-center/listing/nDhf34TiiC9RCocFM2xViin5c/Trover) - it's travel photography + business travel integration in one great app. Because we understand that the business traveler is a person too. Quoting from this [article](http://skift.com/2013/07/25/travel-photography-app-trover-secures-2-5-million-in-funding-from-concur/#/0), what they get for integrating with Concur is *"being able to tap into Concur’s experience, knowledge and “great visibility into travel patterns”"*.
