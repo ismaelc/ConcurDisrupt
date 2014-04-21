@@ -46,18 +46,22 @@ You can find more examples of apps that use our APIs in the App Center link abov
 
 *We know you're tempted to stop reading and start coding after clicking those API docs links, but please read on to find out more on how you can win this... ;)*
 
-I'm sold, how do I get started?
+I'm sold, how do I get started? (first 1.5 hours)
 ----
 
 **Get a Developer sandbox account**
 
 A sandbox account allows you to test both the app and APIs, free of charge.  For the purposes of this hackathon, we have set up 50 developer sandbox accounts (with pre-defined non-existent email addresses) so that you can jump in right away.  To get one of these accounts, please email chris.ismael@concur.com with the Subject: Disrupt Sandbox.  
 
-If you prefer to set up your own free sandbox, you can do so by registering [here](https://developer.concur.com/register).  Note that in most cases, the setup steps right after you login requires you to just keep clicking 'Next' until you get to the end.  Chris also has an iMacro script that automates that part of the developer sandbox registration, so feel free to email him if you want access to that script (chris.ismael@concur.com)
+If you prefer to set up your own free sandbox, you can do so by registering [here](https://developer.concur.com/register).  Note that the setup steps right after you login requires you to just keep clicking 'Next' (for the most part) until you get to the end.  Chris also has an iMacro script that automates that part of the developer sandbox registration, so feel free to email him if you want access to that script (chris.ismael@concur.com)
 
-- Install app
+**Install the app**
 
+After you've set up your sandbox account, the first logical thing to do is to familiarize yourself with the app, so that you can map the APIs to sections inside the product.  You can access the web version of Concur at http://concursolutions.com/ or get the mobile app from [App Store](https://itunes.apple.com/us/app/concur-travel-receipts-expense/id335023774?mt=8) or [Google Play](https://play.google.com/store/apps/details?id=com.concur.breeze).
 
+It also helps to watch these [2-min videos](https://www.concur.com/en-us/resource-center/mobile?type[]=video) (snapshot image below) to understand how the Concur app works, as well as get context on how your app will add value to the Concur business traveler (e.g. Our app helps Concur users predict weather conditions for their future travel).
+
+![Concur videos](https://uzzjfa.bn1301.livefilestore.com/y2pKCHzTRnCEe3U2QYSl8PXRlHqocgshxeHPpbNhIp0fvyOg0Sb5ooFlcsbkyZjnpCO68WLs_sgtlVdmNajb3WIgqAx6j8NE3yNq3AZCCSPbXQ/Screen%20Shot%202014-04-21%20at%204.32.17%20PM.png?psid=1)
 
 - Swagger
 - (To be continued)
