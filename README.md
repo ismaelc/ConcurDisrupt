@@ -49,7 +49,16 @@ You can find more examples of apps that use our APIs in the App Center link abov
 I'm sold, how do I get started?
 ----
 
+**Get a Developer sandbox account**
+
+A sandbox account allows you to test both the app and APIs, free of charge.  For the purposes of this hackathon, we have set up 50 developer sandbox accounts (with pre-defined non-existent email addresses) so that you can jump in right away.  To get one of these accounts, please email chris.ismael@concur.com with the Subject: Disrupt Sandbox.  
+
+If you prefer to set up your own free sandbox, you can do so by registering [here](https://developer.concur.com/register).  Note that in most cases, the setup steps right after you login requires you to just keep clicking 'Next' until you get to the end.  Chris also has an iMacro script that automates that part of the developer sandbox registration, so feel free to email him if you want access to that script (chris.ismael@concur.com)
+
 - Install app
+
+
+
 - Swagger
 - (To be continued)
 
