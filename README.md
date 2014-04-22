@@ -5,9 +5,9 @@ Concur Disrupt
 This page contains information and links to all the resources you need to win the **Concur Contest** in TechCrunch Disrupt 2014 New York.  It is split into the following subsections:
 
   - [Prizes to win](#prizes)
-  - What is Concur?
-  - What information can I get from the Concur APIs?
-  - I'm sold.. How do I get started? 
+  - [What is Concur?](#concur)
+  - [What information can I get from the Concur APIs?](#apis)
+  - [I'm sold.. How do I get started?](#getstarted)
 
 <a name="prizes">Prizes to win:</a>
 ----
@@ -21,14 +21,14 @@ Who starts their contest page with prizes? We do!  Here's what you can win:
   - **$100 cash**: *Use of Concur APIs* - first 10 teams that registers/uses/demos the use of Concur APIs, outside of the above categories, gets $100 (per team).
     
 
-What is Concur?
+<a name="concur">What is Concur?</a>
 -----------
 
 Over 25 million people in 190 countries and over 65 percent of the Fortune 500 trust Concur to process $50 billion in travel and expense data per year.  We help these 25M business travelers manage their travel bookings and expense reports through the Concur Travel and Expense web/mobile app.  This allows them and their companies to save time, money, gain visibility and enforce employee compliance on expenses.  It's all about giving the business traveler a delightful and worry-free travel experience, which we like to call *The Perfect Trip*.
 
 We also created APIs so that partners can add value and contribute to a business traveler's Perfect Trip.  That's where you come in.
 
-What information can I get from the Concur APIs?
+<a name="apis">What information can I get from the Concur APIs?</a>
 --------------
 
 **Example apps**
@@ -46,7 +46,7 @@ You can find more examples of apps that use our APIs in the App Center link abov
 
 *We know you're tempted to stop reading and start coding after clicking those API docs links, but please read on to find out more on how you can win this... ;)*
 
-I'm sold, how do I get started? (first 1.5 hours)
+<a name="get started">I'm sold, how do I get started? (first 1.5 hours)</a>
 ----
 
 **Get a Developer sandbox account**
