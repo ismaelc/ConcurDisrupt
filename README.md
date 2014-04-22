@@ -95,7 +95,17 @@ Here are the complete steps, with screenshots, on how to call our first API.
 
  ![Postman](http://chrispogeek.files.wordpress.com/2014/01/screen-shot-2014-01-13-at-4-45-35-pm.png)
 
- *Chris has already built a couple of Concur Postman "Collections", email him at chris.ismael@concur.com if you want to get it.
+ *Chris has already built a couple of Concur Postman "Collections", email him at chris.ismael@concur.com if you want to get it.*
+
+3.  **Create items to expense and associate them with an expense report**
+
+ We will do this bit using the Concur mobile app.  This would give us data that we can pull using the APIs.  Note that aside from Expense, we can do the same thing for Travel too.  Here's a sequence of screenshots on how to add an expense using the app, then associating them with an expense report.
+
+ <img src='https://uzzjfa.bn1.livefilestore.com/y2pcULOm6UdE-AUrEmLWNBly5E3BzYpVMGlZO59EcYCsrZXwwnKNLao79GZ23BePRR5UfNZhal3ZlpmuGvxjVSMxmhMPhabBLOphrQvaCcZrbc/1.png?psid=1' width="200px"/> <img src='https://uzzjfa.bn1.livefilestore.com/y2pFbRZVFfhb0SLAql738A7LvYLUBi6NEZ_VoZ0ibo3LRTd_3uGcDLDkwoQQbWqbxps-b2bb_Ntap7N0pX7wZdI6564njZOUmJBJ-3g_dpAHXk/2.png?psid=1' width="200px" /> <img src='https://uzzjfa.bn1303.livefilestore.com/y2pcUE6df-Mz51-MijKhlzz6NTieiKFGTBESC5FkSB8J_MRMTm1C8669TY0SVaLpLYNzWXHqkHLGsN9Xm4Z7nhc82yxTMEr3xei6ZudZhatKFY/3.png?psid=1' width="200px" />
+ 
+ You can keep adding new expenses (and even add a receipt image!) to have a variety of data to pull for your API calls.  After adding expenses, create a report to associate it with by tapping the "Add to Report" button (in the last screenshot above).
+ 
+
 
 - Swagger
 - (To be continued)
