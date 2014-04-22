@@ -61,7 +61,7 @@ After you've set up your sandbox account, the first logical thing to do is to fa
 
 It also helps to watch these [2-min videos](https://www.concur.com/en-us/resource-center/mobile?type[]=video) (snapshot image below) to understand how the Concur app works, as well as get context on how your app will add value to the Concur business traveler (e.g. Our app helps Concur users predict weather conditions for their future travel).
 
-![Concur videos](https://uzzjfa.bn1301.livefilestore.com/y2pKCHzTRnCEe3U2QYSl8PXRlHqocgshxeHPpbNhIp0fvyOg0Sb5ooFlcsbkyZjnpCO68WLs_sgtlVdmNajb3WIgqAx6j8NE3yNq3AZCCSPbXQ/Screen%20Shot%202014-04-21%20at%204.32.17%20PM.png?psid=1)
+<img src='https://uzzjfa.bn1301.livefilestore.com/y2pKCHzTRnCEe3U2QYSl8PXRlHqocgshxeHPpbNhIp0fvyOg0Sb5ooFlcsbkyZjnpCO68WLs_sgtlVdmNajb3WIgqAx6j8NE3yNq3AZCCSPbXQ/Screen%20Shot%202014-04-21%20at%204.32.17%20PM.png?psid=1' width="600px" />
 
 **Try at least one API first**
 
@@ -73,7 +73,7 @@ Here are the complete steps, with screenshots, on how to call our first API.
 
  After logging in to http://concursolutions.com, go to Administration -> Register Partner Application -> Concur Partner Application (Modify).  We need the consumer key so we can call the endpoint that would return the access token.
 
- ![Consumer Key](http://chrispogeek.files.wordpress.com/2014/01/untitled.png)
+ <img src='http://chrispogeek.files.wordpress.com/2014/01/untitled.png' width="600px" />
 
 2.  **Call the endpoint to request an access token**
 
@@ -93,7 +93,7 @@ Here are the complete steps, with screenshots, on how to call our first API.
 
  If the call is successful, you should get an XML response with a `<Token>` node.  That's your access token. We would also recommend that you use [Postman](http://www.getpostman.com/), a Chrome extension, to help you manage your API calls (not just Concur ones).  Here's what it looks like in action:
 
- ![Postman](http://chrispogeek.files.wordpress.com/2014/01/screen-shot-2014-01-13-at-4-45-35-pm.png)
+ <img src='http://chrispogeek.files.wordpress.com/2014/01/screen-shot-2014-01-13-at-4-45-35-pm.png' width="600px" />
 
  *Chris has already built a couple of Concur Postman "Collections", email him at chris.ismael@concur.com if you want to get it.*
 
@@ -104,8 +104,23 @@ Here are the complete steps, with screenshots, on how to call our first API.
  <img src='https://uzzjfa.bn1.livefilestore.com/y2pcULOm6UdE-AUrEmLWNBly5E3BzYpVMGlZO59EcYCsrZXwwnKNLao79GZ23BePRR5UfNZhal3ZlpmuGvxjVSMxmhMPhabBLOphrQvaCcZrbc/1.png?psid=1' width="200px"/> <img src='https://uzzjfa.bn1.livefilestore.com/y2pFbRZVFfhb0SLAql738A7LvYLUBi6NEZ_VoZ0ibo3LRTd_3uGcDLDkwoQQbWqbxps-b2bb_Ntap7N0pX7wZdI6564njZOUmJBJ-3g_dpAHXk/2.png?psid=1' width="200px" /> <img src='https://uzzjfa.bn1303.livefilestore.com/y2pcUE6df-Mz51-MijKhlzz6NTieiKFGTBESC5FkSB8J_MRMTm1C8669TY0SVaLpLYNzWXHqkHLGsN9Xm4Z7nhc82yxTMEr3xei6ZudZhatKFY/3.png?psid=1' width="200px" />
  
  You can keep adding new expenses (and even add a receipt image!) to have a variety of data to pull for your API calls.  After adding expenses, create a report to associate it with by tapping the "Add to Report" button (in the last screenshot above).
- 
 
+4.  **Call the APIs to pull expense report items**
+
+ Since we now have an access token, we can pull an Expense Report Digest, like so (in Terminal):
+
+        curl https://www.concursolutions.com/api/v3.0/expense/reportdigests
+        -H "Authorization: OAuth <insert your access token here>"
+ 
+ This would return a JSON response of the Expense Report, with a field called `ID`.  We need this ID to extract the expense line items we created in the app earlier.  To liven things up a bit, let's use the [Swagger](https://www.concursolutions.com/api/docs/index.html#!/Entries) documentation of the "Entries" APIs:
+
+ <img src='https://uzzjfa.bn1301.livefilestore.com/y2pgqKseLh5bISj32tnwO6HHFymA-xlcX_pNtfVKQx6PQsCyugCkJyua8zXhUGr52qc2io1jTu57ZmmTmjmxI9YIPX5fVtViXoqDiowi0bsA0Q/Screen%20Shot%202014-04-22%20at%201.21.55%20PM.png?psid=1' width="600px" />
+
+ We highlighted two things here, the (oval) field where you put in your access token, and the (rectangle) field where you put in the `'ID` we got from the previous API call.  Note that we can do this same call in curl, or in any fashion you want.  Swagger just provides us a consolidated way to make the API calls.
+
+ To execute the call, click the "Try it out!" button.  You should get a response like this below:
+
+ <img src='https://uzzjfa.bn1302.livefilestore.com/y2pd1weq_fdk9NcwWR61bR-ioe9Eb8iWn5iQWdadK7jUd73-5axqmk7buNZ5-zQ0Sm9u_n7-m-1J4MJgi5V6g11lQzIX3JjXQESQKuHEqpyXvY/Screen%20Shot%202014-04-22%20at%201.29.22%20PM.png?psid=1' width="600px" />
 
 - Swagger
 - (To be continued)
