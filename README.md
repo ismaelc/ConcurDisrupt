@@ -69,7 +69,7 @@ The fastest way to get a handle of the APIs would be to try to get a response fr
 
 Here are the complete steps, with screenshots, on how to call our first API.
 
-1.  Get your Consumer Key.  
+1.  **Get your Consumer Key**  
 
 After logging in to http://concursolutions.com, go to Administration -> Register Partner Application -> Concur Partner Application (Modify)
 
