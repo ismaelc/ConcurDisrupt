@@ -16,7 +16,7 @@ Who starts their contest page with prizes? We do!  Here's what you can win:
 
   - **Maximum $2,500 worth of gift cards**: *Best Re-Polished App using Concur APIs* - planning to re-use a non-Concur app from a previous hackathon?  Feel free to submit them to us, as long as it's using a Concur API (for the first time). Prize distribution is $500 to each winning team member.
     
-  - **Maximum $2,500 worth of gift cards**: *Best Use of Concur API* - any "new" app submission outside of the Re-Polished category.  Prize distribution is $500 to each winning team member.
+  - **Maximum $2,500 worth of gift cards**: *Best Use of Concur API* - any new app submission using a Concur API, outside of the Re-Polished category.  Prize distribution is $500 to each winning team member.
     
   - **$100 cash**: *Use of Concur APIs* - first 10 teams that registers/uses/demos the use of Concur APIs, outside of the above categories, gets $100 (per team).
     
