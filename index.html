@@ -118,23 +118,23 @@
 <li>
 <p><strong>Call the endpoint to request an access token</strong></p>
 
-<p>Here's what the call looks like to request for an access token:</p>
+<p>Here's what the HTTP call looks like to request for an access token:</p>
 
 <pre><code>  GET https://www.concursolutions.com/net2/oauth2/accesstoken.ashx HTTP 1.1
   Authorization: Basic am9obl9kZXZlbG90bWFpbC5jb206VHJhdmVsJkV4cGVuc2UkMjAxMg==
   X-ConsumerKey: eZByXv2X41cJlC21pSVvRi    
 </code></pre>
 
-<p>Note that we already have 'X-ConsumerKey' from number 1.  To generate the 'Authorization: Basic' value, you need to Base64-encode the login ID, colon and password such that <a href="mailto:john_developer@hotmail.com">john_developer@hotmail.com</a>:Travel&amp;Expense$2012 becomes am9obl9kZXZlbG90bWFpbC5jb206VHJhdmVsJkV4cGVuc2UkMjAxMg==.  If you're not doing this programmatically yet, you can use this <a href="http://www.base64encode.org/">nifty web tool</a> to generate that value (remember to choose Encode).</p>
+<p>Note that we already have <code>X-ConsumerKey</code> from number 1.  To generate the <code>Authorization: Basic</code> value, you need to Base64-encode the login ID, colon and password such that <a href="mailto:john_developer@hotmail.com">john_developer@hotmail.com</a>:Travel&amp;Expense$2012 becomes am9obl9kZXZlbG90bWFpbC5jb206VHJhdmVsJkV4cGVuc2UkMjAxMg==.  If you're not doing this programmatically yet, you can use this <a href="http://www.base64encode.org/">nifty web tool</a> to generate that value (remember to choose Encode).</p>
 
-<p>If you're using a Terminal, an equivalent curl statement of above would be:</p>
+<p>If you're using a Terminal, an equivalent curl statement of the above would be:</p>
 
 <pre><code>  curl https://www.concursolutions.com/net2/oauth2/accesstoken.ashx
   -H "Authorization: Basic am9obl9kZXZlbG90bWFpbC5jb206VHJhdmVsJkV4cGVuc2UkMjAxMg=="
   -H "X-ConsumerKey: eZByXv2X41cJlC21pSVvRi"
 </code></pre>
 
-<p>If the call is successful, you should get an XML response with a '' node.  That's your access token. We would also recommend that you use <a href="http://www.getpostman.com/">Postman</a>, a Chrome extension, to help you manage your API calls (not just Concur ones).  Here's what it looks like in action:</p>
+<p>If the call is successful, you should get an XML response with a <code>&lt;Token&gt;</code> node.  That's your access token. We would also recommend that you use <a href="http://www.getpostman.com/">Postman</a>, a Chrome extension, to help you manage your API calls (not just Concur ones).  Here's what it looks like in action:</p>
 
 <p><img src="http://chrispogeek.files.wordpress.com/2014/01/screen-shot-2014-01-13-at-4-45-35-pm.png" alt="Postman"></p>
 
