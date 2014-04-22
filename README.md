@@ -46,7 +46,7 @@ You can find more examples of apps that use our APIs in the App Center link abov
 
 *We know you're tempted to stop reading and start coding after clicking those API docs links, but please read on to find out more on how you can win this... ;)*
 
-<a name="get started">I'm sold, how do I get started? (first 1.5 hours)</a>
+<a name="getstarted">I'm sold, how do I get started? (first 1.5 hours)</a>
 ----
 
 **Get a Developer sandbox account**
@@ -71,9 +71,17 @@ Here are the complete steps, with screenshots, on how to call our first API.
 
 1.  **Get your Consumer Key**  
 
-After logging in to http://concursolutions.com, go to Administration -> Register Partner Application -> Concur Partner Application (Modify)
+After logging in to http://concursolutions.com, go to Administration -> Register Partner Application -> Concur Partner Application (Modify).  We need the consumer key so we can call the endpoint that would return the access token.
 
 ![Consumer Key](http://chrispogeek.files.wordpress.com/2014/01/untitled.png)
+
+2.  **Call the endpoint to request an access token**
+
+Here's what the call looks like to request for an access token:
+
+    GET https://www.concursolutions.com/net2/oauth2/accesstoken.ashx HTTP 1.1
+    Authorization: Basic am9obl9kZXZlbG90bWFpbC5jb206VHJhdmVsJkV4cGVuc2UkMjAxMg==
+    X-ConsumerKey: eZByXv2X41cJlC21pSVvRi	
 
 - Swagger
 - (To be continued)
