@@ -4,12 +4,12 @@ Concur Disrupt
 
 This page contains information and links to all the resources you need to win the **Concur Contest** in TechCrunch Disrupt 2014 New York.  It is split into the following subsections:
 
-  - Prizes to win
+  - [Prizes to win](#prizes)
   - What is Concur?
   - What information can I get from the Concur APIs?
   - I'm sold.. How do I get started? 
 
-Prizes to win:
+<a name="prizes">Prizes to win:</a>
 ----
 
 Who starts their contest page with prizes? We do!  Here's what you can win:
