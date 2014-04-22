@@ -63,6 +63,18 @@ It also helps to watch these [2-min videos](https://www.concur.com/en-us/resourc
 
 ![Concur videos](https://uzzjfa.bn1301.livefilestore.com/y2pKCHzTRnCEe3U2QYSl8PXRlHqocgshxeHPpbNhIp0fvyOg0Sb5ooFlcsbkyZjnpCO68WLs_sgtlVdmNajb3WIgqAx6j8NE3yNq3AZCCSPbXQ/Screen%20Shot%202014-04-21%20at%204.32.17%20PM.png?psid=1)
 
+**Try at least one API first**
+
+The fastest way to get a handle of the APIs would be to try to get a response from one first.  The first step is to authenticate yourself.  Without getting into too much detail, we'll authenticate using Concur's [OAuth Native Flow](https://developer.concur.com/api-documentation/oauth-20-0#nativeexample).  The goal is to get an Access Token that we will use for all our subsequent API calls.
+
+Here are the complete steps, with screenshots, on how to call our first API.
+
+1.  Get your Consumer Key.  
+
+After logging in to http://concursolutions.com, go to Administration -> Register Partner Application -> Concur Partner Application (Modify)
+
+![Consumer Key](http://chrispogeek.files.wordpress.com/2014/01/untitled.png)
+
 - Swagger
 - (To be continued)
 
