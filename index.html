@@ -84,7 +84,7 @@
 </ul><p><em>We know you're tempted to stop reading and start coding after clicking those API docs links, but please read on to find out more on how you can win this... ;)</em></p>
 
 <h2>
-<a name="im-sold-how-do-i-get-started-first-15-hours" class="anchor" href="#im-sold-how-do-i-get-started-first-15-hours"><span class="octicon octicon-link"></span></a><a name="get%20started">I'm sold, how do I get started? (first 1.5 hours)</a>
+<a name="im-sold-how-do-i-get-started-first-15-hours" class="anchor" href="#im-sold-how-do-i-get-started-first-15-hours"><span class="octicon octicon-link"></span></a><a name="getstarted">I'm sold, how do I get started? (first 1.5 hours)</a>
 </h2>
 
 <p><strong>Get a Developer sandbox account</strong></p>
@@ -110,9 +110,19 @@
 <ol>
 <li> <strong>Get your Consumer Key</strong><br>
 </li>
-</ol><p>After logging in to <a href="http://concursolutions.com">http://concursolutions.com</a>, go to Administration -&gt; Register Partner Application -&gt; Concur Partner Application (Modify)</p>
+</ol><p>After logging in to <a href="http://concursolutions.com">http://concursolutions.com</a>, go to Administration -&gt; Register Partner Application -&gt; Concur Partner Application (Modify).  We need the consumer key so we can call the endpoint that would return the access token.</p>
 
 <p><img src="http://chrispogeek.files.wordpress.com/2014/01/untitled.png" alt="Consumer Key"></p>
+
+<ol>
+<li> <strong>Call the endpoint to request an access token</strong>
+</li>
+</ol><p>Here's what the call looks like to request for an access token:</p>
+
+<pre><code>GET https://www.concursolutions.com/net2/oauth2/accesstoken.ashx HTTP 1.1
+Authorization: Basic am9obl9kZXZlbG90bWFpbC5jb206VHJhdmVsJkV4cGVuc2UkMjAxMg==
+X-ConsumerKey: eZByXv2X41cJlC21pSVvRi   
+</code></pre>
 
 <ul>
 <li>Swagger</li>
