@@ -112,11 +112,11 @@ Here are the complete steps, with screenshots, on how to call our first API.
         curl https://www.concursolutions.com/api/v3.0/expense/reportdigests
         -H "Authorization: OAuth <insert your access token here>"
  
- This would return a JSON response of the Expense Report, with a field called `ID`.  We need this ID to extract the expense line items we created in the app earlier.  To liven things up a bit, let's use the [Swagger](https://www.concursolutions.com/api/docs/index.html#!/Entries) documentation of the "Entries" APIs:
+ This would return a JSON response of the Expense Report, with a field called `ID`.  We need this ID to extract the expense line items we created in the app earlier.  To liven things up a bit, let's use the [Swagger](https://www.concursolutions.com/api/docs/index.html#!/Entries) documentation of the "Entries" API to get the individual expense line items:
 
  <img src='https://uzzjfa.bn1301.livefilestore.com/y2pgqKseLh5bISj32tnwO6HHFymA-xlcX_pNtfVKQx6PQsCyugCkJyua8zXhUGr52qc2io1jTu57ZmmTmjmxI9YIPX5fVtViXoqDiowi0bsA0Q/Screen%20Shot%202014-04-22%20at%201.21.55%20PM.png?psid=1' width="600px" />
 
- We highlighted two things here, the (oval) field where you put in your access token, and the (rectangle) field where you put in the `'ID` we got from the previous API call.  Note that we can do this same call in curl, or in any fashion you want.  Swagger just provides us a consolidated way to make the API calls.
+ We highlighted two things here, the (oval) field where you put in your access token, and the (rectangle) field where you put in the `ID` we got from the previous API call.  Note that we can do this same call in curl, or in any fashion you want.  Swagger just provides us a consolidated way to make the API calls.
 
  To execute the call, click the "Try it out!" button.  You should get a response like this below:
 
