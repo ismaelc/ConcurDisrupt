@@ -69,29 +69,29 @@ The fastest way to get a handle of the APIs would be to try to get a response fr
 
 Here are the complete steps, with screenshots, on how to call our first API.
 
-1.  **Get your Consumer Key**  
+1.   **Get your Consumer Key**  
 
  After logging in to http://concursolutions.com, go to Administration -> Register Partner Application -> Concur Partner Application (Modify).  We need the consumer key so we can call the endpoint that would return the access token.
 
  ![Consumer Key](http://chrispogeek.files.wordpress.com/2014/01/untitled.png)
 
-2. **Call the endpoint to request an access token**
+2.  **Call the endpoint to request an access token**
 
- Here's what the call looks like to request for an access token:
+ Here's what the HTTP call looks like to request for an access token:
 
         GET https://www.concursolutions.com/net2/oauth2/accesstoken.ashx HTTP 1.1
         Authorization: Basic am9obl9kZXZlbG90bWFpbC5jb206VHJhdmVsJkV4cGVuc2UkMjAxMg==
         X-ConsumerKey: eZByXv2X41cJlC21pSVvRi    
 
- Note that we already have 'X-ConsumerKey' from number 1.  To generate the 'Authorization: Basic' value, you need to Base64-encode the login ID, colon and password such that john_developer@hotmail.com:Travel&Expense$2012 becomes am9obl9kZXZlbG90bWFpbC5jb206VHJhdmVsJkV4cGVuc2UkMjAxMg==.  If you're not doing this programmatically yet, you can use this [nifty web tool](http://www.base64encode.org/) to generate that value (remember to choose Encode).
+ Note that we already have `X-ConsumerKey` from number 1.  To generate the `Authorization: Basic` value, you need to Base64-encode the login ID, colon and password such that john_developer@hotmail.com:Travel&Expense$2012 becomes am9obl9kZXZlbG90bWFpbC5jb206VHJhdmVsJkV4cGVuc2UkMjAxMg==.  If you're not doing this programmatically yet, you can use this [nifty web tool](http://www.base64encode.org/) to generate that value (remember to choose Encode).
 
- If you're using a Terminal, an equivalent curl statement of above would be:
+ If you're using a Terminal, an equivalent curl statement of the above would be:
         
         curl https://www.concursolutions.com/net2/oauth2/accesstoken.ashx
         -H "Authorization: Basic am9obl9kZXZlbG90bWFpbC5jb206VHJhdmVsJkV4cGVuc2UkMjAxMg=="
         -H "X-ConsumerKey: eZByXv2X41cJlC21pSVvRi"
 
- If the call is successful, you should get an XML response with a '<Token>' node.  That's your access token. We would also recommend that you use [Postman](http://www.getpostman.com/), a Chrome extension, to help you manage your API calls (not just Concur ones).  Here's what it looks like in action:
+ If the call is successful, you should get an XML response with a `<Token>` node.  That's your access token. We would also recommend that you use [Postman](http://www.getpostman.com/), a Chrome extension, to help you manage your API calls (not just Concur ones).  Here's what it looks like in action:
 
  ![Postman](http://chrispogeek.files.wordpress.com/2014/01/screen-shot-2014-01-13-at-4-45-35-pm.png)
 
