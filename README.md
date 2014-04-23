@@ -61,7 +61,7 @@ After you've set up your sandbox account, the first logical thing to do is to fa
 
 It also helps to watch these [2-min videos](https://www.concur.com/en-us/resource-center/mobile?type[]=video) (snapshot image below) to understand how the Concur app works, as well as get context on how your app will add value to the Concur business traveler (e.g. Our app helps Concur users predict weather conditions for their future travel).
 
-<img src='https://jfqcza.bn1303.livefilestore.com/y2prTjiXka8J458ZjeCiQNhXnsulBVqrtzZeleZXrQGJwljgDj5O7bOC5tR5hLvZvsNvSE8MKdpARFrbS2jLT-1QLhSsoceO1dWXS-VzBi29Kg/Screen%20Shot%202014-04-21%20at%204.32.17%20PM.png?psid=1' width="600px" />
+<img src='https://jfqcza.bn1301.livefilestore.com/y2plGwIFgIkWPhuXtK609Lokwso2nQKF5qZjZa0lQZI8p2WZl2s2s2VrbHQhyOVE8nJZm1iVnjxfqC4pH_CXEKxiSMcNl_LF2iXW10hfM3YGPk/Screen%20Shot%202014-04-22%20at%2010.37.30%20PM.png?psid=1' width="600px" />
 
 **Try at least one API first**
 
