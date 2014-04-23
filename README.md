@@ -61,7 +61,7 @@ After you've set up your sandbox account, the first logical thing to do is to fa
 
 It also helps to watch these [2-min videos](https://www.concur.com/en-us/resource-center/mobile?type[]=video) (snapshot image below) to understand how the Concur app works, as well as get context on how your app will add value to the Concur business traveler (e.g. Our app helps Concur users predict weather conditions for their future travel).
 
-<img src='https://uzzjfa.bn1301.livefilestore.com/y2pKCHzTRnCEe3U2QYSl8PXRlHqocgshxeHPpbNhIp0fvyOg0Sb5ooFlcsbkyZjnpCO68WLs_sgtlVdmNajb3WIgqAx6j8NE3yNq3AZCCSPbXQ/Screen%20Shot%202014-04-21%20at%204.32.17%20PM.png?psid=1' width="600px" />
+<img src='https://jfqcza.bn1303.livefilestore.com/y2prTjiXka8J458ZjeCiQNhXnsulBVqrtzZeleZXrQGJwljgDj5O7bOC5tR5hLvZvsNvSE8MKdpARFrbS2jLT-1QLhSsoceO1dWXS-VzBi29Kg/Screen%20Shot%202014-04-21%20at%204.32.17%20PM.png?psid=1' width="600px" />
 
 **Try at least one API first**
 
@@ -101,7 +101,7 @@ Here are the complete steps, with screenshots, on how to call our first API.
 
  We will do this bit using the Concur mobile app.  This would give us data that we can pull using the APIs.  Note that aside from Expense, we can do the same thing for Travel too.  Here's a sequence of screenshots on how to add an expense using the app, then associating them with an expense report.
 
- <img src='https://uzzjfa.bn1.livefilestore.com/y2pcULOm6UdE-AUrEmLWNBly5E3BzYpVMGlZO59EcYCsrZXwwnKNLao79GZ23BePRR5UfNZhal3ZlpmuGvxjVSMxmhMPhabBLOphrQvaCcZrbc/1.png?psid=1' width="200px"/> <img src='https://uzzjfa.bn1.livefilestore.com/y2pFbRZVFfhb0SLAql738A7LvYLUBi6NEZ_VoZ0ibo3LRTd_3uGcDLDkwoQQbWqbxps-b2bb_Ntap7N0pX7wZdI6564njZOUmJBJ-3g_dpAHXk/2.png?psid=1' width="200px" /> <img src='https://uzzjfa.bn1303.livefilestore.com/y2pcUE6df-Mz51-MijKhlzz6NTieiKFGTBESC5FkSB8J_MRMTm1C8669TY0SVaLpLYNzWXHqkHLGsN9Xm4Z7nhc82yxTMEr3xei6ZudZhatKFY/3.png?psid=1' width="200px" />
+ <img src='https://jfqcza.bn1303.livefilestore.com/y2pDadi2n4fFfdP7nP7r8tv0mYI0vjDmw1VAHp2h7wAz63qmdTheO7CFZNoMHVUM1AYm9-Ur3YHeR8RrN6yJyw0J_UVEqVwCsTqaxqYte1v6Fg/1.png?psid=1' width="200px"/> <img src='https://jfqcza.bn1302.livefilestore.com/y2pbj4PSh8gAbIicwDnrsPoA2qzBF7mZRE9iN6-tiMl7bE0VpuarZE5fGiQJXBPsZ5bLZoK-POwjWMOeTVh5I-2vr9YMxwnN8zjx08fvWHnE04/2.png?psid=1' width="200px" /> <img src='https://jfqcza.bn1301.livefilestore.com/y2pN7PVESkTt9qgjdCJk-aTmoCdKwZ8HonrNlTzylZPrgs_4rWesCjgd9SBV7xAx7BSaQ4c8wwU9GCCplNeGxfqCQPy-2gcw7c6T5n8O-Bm-y4/3.png?psid=1' width="200px" />
  
  You can keep adding new expenses (and even add a receipt image!) to have a variety of data to pull for your API calls.  After adding expenses, create a report to associate it with by tapping the "Add to Report" button (in the last screenshot above).
 
@@ -114,20 +114,16 @@ Here are the complete steps, with screenshots, on how to call our first API.
  
  This would return a JSON response of the Expense Report, with a field called `ID`.  We need this ID to extract the expense line items we created in the app earlier.  To liven things up a bit, let's use the [Swagger](https://www.concursolutions.com/api/docs/index.html#!/Entries) documentation of the "Entries" API to get the individual expense line items:
 
- <img src='https://uzzjfa.bn1301.livefilestore.com/y2pgqKseLh5bISj32tnwO6HHFymA-xlcX_pNtfVKQx6PQsCyugCkJyua8zXhUGr52qc2io1jTu57ZmmTmjmxI9YIPX5fVtViXoqDiowi0bsA0Q/Screen%20Shot%202014-04-22%20at%201.21.55%20PM.png?psid=1' width="600px" />
+ <img src='https://jfqcza.bn1302.livefilestore.com/y2pExFhXefF7BWcggCWbeRkUyOUyEf1UdRi0HoCcpj8PKfaGMub-K8xc0BXHsX2NUFlNp54-m6X3aJ7dRNLQiIHfyYJhdtTiEJEArnZJ-r7NCA/Screen%20Shot%202014-04-22%20at%201.21.55%20PM.png?psid=1' width="600px" />
 
  We highlighted two things here, the (oval) field where you put in your access token, and the (rectangle) field where you put in the `ID` we got from the previous API call.  Note that we can do this same call in curl, or in any fashion you want.  Swagger just provides us a consolidated way to make the API calls.
 
  To execute the call, click the "Try it out!" button.  You should get a response like this below:
 
- <img src='https://uzzjfa.bn1302.livefilestore.com/y2pd1weq_fdk9NcwWR61bR-ioe9Eb8iWn5iQWdadK7jUd73-5axqmk7buNZ5-zQ0Sm9u_n7-m-1J4MJgi5V6g11lQzIX3JjXQESQKuHEqpyXvY/Screen%20Shot%202014-04-22%20at%201.29.22%20PM.png?psid=1' width="600px" />
+ <img src='https://jfqcza.bn1304.livefilestore.com/y2pty6lMBv5XXLjA_mT5HLpSNea4hVr3AUCRuEI207Wr1otLVxy86klHYuNDP0N-cvb75IFJvicR1jR2K7X3wqJXsH_AQNcEWkp6iO4t3jXRCs/Screen%20Shot%202014-04-22%20at%201.29.22%20PM.png?psid=1' width="600px" />
 
 - Swagger
 - (To be continued)
 
 
 **You're set.  Go win this!**
-
-
-
-  
