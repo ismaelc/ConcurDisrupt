@@ -26,7 +26,7 @@ Who starts their contest page with prizes? We do!  Here's what you can win:
 
 Over 25 million people in 190 countries and over 65 percent of the Fortune 500 trust Concur to process $50 billion in travel and expense data per year.  We help these 25M business travelers manage their travel bookings and expense reports through the Concur Travel and Expense web/mobile app.  This allows them and their companies to save time, money, gain visibility and enforce employee compliance on expenses.  It's all about giving the business traveler a delightful and worry-free travel experience, which we like to call *The Perfect Trip*.
 
-We also created APIs so that partners can add value and contribute to a business traveler's Perfect Trip.  That's where you come in.
+We also created APIs so that partners can add value and contribute to a business traveler's Perfect Trip.  **That's where you come in**.
 
 <a name="apis">What information can I get from the Concur APIs?</a>
 --------------
