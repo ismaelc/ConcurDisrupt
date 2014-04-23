@@ -1,5 +1,5 @@
 
-<img valign="center" src="https://jfqcza.bn1.livefilestore.com/y2paqP_3uagi8J3WlP4-pNt4kJoOzRKmuohSQUsrjaegIaoNbNZJ7EXLEflIO6XYAOKM6scpKxbtXPg10RL5OO3A9bc6m-zERVRHUYB1OEGq8s/Concur_Logo_VT_Color_500px.png?psid=1" width="90px" />&nbsp;&nbsp;&nbsp;&nbsp;Concur Disrupt
+<img src="https://jfqcza.bn1.livefilestore.com/y2paqP_3uagi8J3WlP4-pNt4kJoOzRKmuohSQUsrjaegIaoNbNZJ7EXLEflIO6XYAOKM6scpKxbtXPg10RL5OO3A9bc6m-zERVRHUYB1OEGq8s/Concur_Logo_VT_Color_500px.png?psid=1" width="90px" />&nbsp;&nbsp;&nbsp;&nbsp;Concur Disrupt &nbsp;&nbsp;&nbsp;&nbsp;<img src="https://jfqcza.bn1304.livefilestore.com/y2pGKvnveN12SnmoryMSg647qwDe4JMLBQ6nVqhBnsOUXY7O3i-jhRIHQXY2dVO1sU2hECixL7OwrE78ntEx7msUA_YLr15z3TuD7MUTk459f4/Screen%20Shot%202014-04-23%20at%203.23.18%20PM.png?psid=1" width="150px" />
 =========
 <br/>
 This page contains information and links to all the resources you need to win the **Concur Contest** in TechCrunch Disrupt 2014 New York.  It is split into the following subsections:
