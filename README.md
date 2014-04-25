@@ -128,7 +128,8 @@ Here are the complete steps, with screenshots, on how to call our first API.
 <a name="samplecode">Sample code</a>
 --------------
 - [Windows 8 C#/XAML](https://github.com/ismaelc/Concur-Windows8-SampleCode)
-- (To be continued)
+- [Objective-C/iOS](https://github.com/concurtech/mobile-samples)
+- [C#](https://github.com/concurtech/api-samples)
 
 
 **You're set.  Go win this!**
