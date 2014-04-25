@@ -8,6 +8,7 @@ This page contains information and links to all the resources you need to win th
   - [What is Concur?](#concur)
   - [What information can I get from the Concur APIs?](#apis)
   - [I'm sold.. How do I get started?](#getstarted)
+  - [Sample code](#samplecode)
 
 <a name="prizes">Prizes to win:</a>
 ----
@@ -124,7 +125,9 @@ Here are the complete steps, with screenshots, on how to call our first API.
 
  <img src='https://jfqcza.bn1304.livefilestore.com/y2pty6lMBv5XXLjA_mT5HLpSNea4hVr3AUCRuEI207Wr1otLVxy86klHYuNDP0N-cvb75IFJvicR1jR2K7X3wqJXsH_AQNcEWkp6iO4t3jXRCs/Screen%20Shot%202014-04-22%20at%201.29.22%20PM.png?psid=1' width="600px" />
 
-- Swagger
+<a name="samplecode">Sample code</a>
+--------------
+- [Windows 8 C#/XAML](https://github.com/ismaelc/Concur-Windows8-SampleCode)
 - (To be continued)
 
 
