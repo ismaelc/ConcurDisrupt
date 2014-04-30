@@ -17,7 +17,7 @@ Who starts their contest page with prizes? We do!  Here's what you can win:
     
   - **Maximum $2,500 worth of Amazon gift cards**: *Best Use of Concur API* - App that demonstrates the best use of Concur APIs.  Prize distribution is $500 to each winning team member.
     
-  - **$100 cash**: *Use of Concur APIs* - first 10 teams that registers/uses/demos the use of Concur APIs, outside of the above categories, gets $100 (per team).
+  - **$100 cash**: *Use of Concur APIs* - first 10 teams that registers/uses/demos the use of Concur APIs, outside of the above category, gets $100 (per team).
     
 
 <a name="concur">What is Concur?</a>
