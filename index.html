@@ -305,6 +305,54 @@ This page contains information and links to all the resources you need for the <
 ?&gt;
 </code></pre>
 
+<p><strong>Posting Report Header:</strong></p>
+
+<pre><code>Request Type = POST
+Authorization = &lt;your access token&gt;
+URI = https://www.concursolutions.com/api/expense/expensereport/v1.1/report
+ContentType = Application/XML
+Body = 
+&lt;Report xmlns="http://www.concursolutions.com/api/expense/expensereport/2011/03"&gt;
+    &lt;Name&gt;Disrupt Hackathon NYC Trip&lt;/Name&gt;
+    &lt;Purpose&gt;All Hackathon Expenses&lt;/Purpose&gt;
+    &lt;Comment&gt;Includes hotel and meals.&lt;/Comment&gt;
+    &lt;OrgUnit1&gt;US&lt;/OrgUnit1&gt;
+    &lt;OrgUnit3&gt;Bellevue&lt;/OrgUnit3&gt;
+    &lt;Custom1&gt;Client&lt;/Custom1&gt;
+    &lt;Custom2&gt;Local&lt;/Custom2&gt;
+    &lt;UserDefinedDate&gt;2014-05-01 15:15:07.0&lt;/UserDefinedDate&gt;
+&lt;/Report&gt;
+</code></pre>
+
+<p><strong>Getting Report Details:</strong></p>
+
+<pre><code>Request Type = GET
+Authorization = &lt;your access token&gt;
+URI = https://www.concursolutions.com/api/expense/expensereport/v2.0/Reports/?reportcountry=US
+ContentType = Application/JSON
+</code></pre>
+
+<p><strong>Posting Report Entry:</strong></p>
+
+<pre><code>Request Type = POST
+Authorization = &lt;your access token&gt;
+URI = https://www.concursolutions.com/api/expense/expensereport/v1.1/report/B6F4FD62FB424911A3B8/entry
+ContentType = Application/XML
+Body = 
+&lt;ReportEntries xmlns="http://www.concursolutions.com/api/expense/expensereport/2011/03"&gt;
+&lt;Expense&gt;
+    &lt;CrnCode&gt;USD&lt;/CrnCode&gt;
+    &lt;ExpKey&gt;BRKFT&lt;/ExpKey&gt;
+    &lt;Description&gt;Starbucks for Breakfast&lt;/Description&gt;
+    &lt;TransactionDate&gt;2014-05-01&lt;/TransactionDate&gt;
+    &lt;TransactionAmount&gt;15.54&lt;/TransactionAmount&gt;
+    &lt;Comment&gt;Breakfast meeting&lt;/Comment&gt;
+    &lt;VendorDescription&gt;Starbucks&lt;/VendorDescription&gt;
+    &lt;IsPersonal&gt;N&lt;/IsPersonal&gt;
+&lt;/Expense&gt;
+&lt;/ReportEntries&gt;
+</code></pre>
+
 <h2>
 <a name="sample-code" class="anchor" href="#sample-code"><span class="octicon octicon-link"></span></a><a name="samplecode">Sample code</a>
 </h2>
