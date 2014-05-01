@@ -10,7 +10,7 @@ This page contains information and links to all the resources you need for the *
   - [I'm sold.. How do I get started?](#getstarted)
   - [Other API calls/samples to check out](#other)
   - [Sample code](#samplecode)
-  - [Sponsor links and prizes](#sponsors)
+  - [TC Disrupt Hackathon Sponsor API Links and Prizes #hackdisrupt](#sponsors)
 
 <a name="prizes">Prizes to win:</a>
 ----
@@ -262,13 +262,21 @@ Here are details of an HTTP POST call push itinerary to a Concur user's trip lis
 - [C#](https://github.com/concurtech/api-samples)
 - [PHP/curl](http://runnable.com/UtWlKVi9ZnsnAABx/upload-receipts-to-concur-using-php-curl) (in Runnable.com)
 
-<a name="sponsors">Sponsor Links and Prizes</a>
+<a name="sponsors">TC Disrupt Hackathon Sponsor API Links and Prizes</a>
 --
 
 Sponsor  | Prizes
 ------------- | -------------
 [Concur Technologies](http://bit.ly/ConcurDisrupt)   | $2500 worth of Amazon gift cards ($500 each team member) for best use of Concur APIs + $100 per 10 teams that use Concur APIs (excluding $500 gift card winners)
 [Yodlee Interactive](http://developer.yodlee.com/Hackathons/NY_Disrupt_2014)  | $2500 in value of VISA gift cards as well as Dr Dre Beats Pill speakers (1 speaker for each member of the winning team up to 4).
+[Mailjet](http://blog.mailjet.com/post/83100778827/mailjets-gearing-up-for-techcrunch-disrupt) | 1st place: 1 year silver membership, $1500, $350 Fancy gift card, 20 GB karma hotspot; 2nd place: 6 months silver membership, $1000, $150 Fancy gift card, 5 GB Karma hotspot; 3rd place: 6 months bronze membership, $250, 2 GB Karma hotspot
+[Yammer](https://developer.yammer.com/restapi/) | Xbox One, Nokia Lumia Icon
+[Microsoft](http://azure.microsoft.com/en-us/documentation/) | Best in Azure Award: This Award is for the best use of Cloud Services with Microsoft Windows Azure. Points will be awarded based on overall User Experience, and usage of Azure Web Sites (1 point), Virtual Machines (2 points), Azure Storage (Blobs, Tables, Queues) (3 points), Azure Mobile Services (4 points) and/or Additional Azure usage (ie, SQL Databases, Service Bus, Active Directory, etc) (5 points). Whether you are creating an iOS, Android or Windows app, the more Azure you use, the more points you earn. The Winning team will be awarded a $400 Gift Card for each team member, up to 5 team members total. (total prize value $2,000)
+[Weather Underground](http://www.wunderground.com/weather/api/) | We’re giving away a $1,000 gift card to the best use of the Weather Underground weather API
+[Pearson](https://developer.pearson.com/apis/) | Amazon Gift Cards 
+[Esri](https://developers.arcgis.com) | 
+[Evernote](http://dev.evernote.com/) | Grand Evernote Prize Awarded to the best overall app that connects with the Evernote API. All members (4 max) win: Apple iPad Minis and 1 year of Evernote Premium (each)
+[Crunchbase](http://developer.crunchbase.com/) | Best Use of CrunchBase API – $500
 
 
 **You're set.  Go win this!**
