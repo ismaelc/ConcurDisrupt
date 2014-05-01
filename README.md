@@ -267,7 +267,7 @@ Here are details of an HTTP POST call push itinerary to a Concur user's trip lis
 
 Sponsor  | Prizes
 ------------- | -------------
-[Concur Technologies](http://bit.ly/ConcurDisrupt)   | $2500 worth of Amazon gift cards ($500 each team member) for best use of Concur APIs + $100 per 10 teams that use Concur APIs (excluding $500 gift card winners)
+[Concur Technologies](http://bit.ly/ConcurDisrupt)   | $2500 worth of Amazon gift cards ($500 each team member) for best use of Concur APIs + $100 per team (10) that use Concur APIs (excluding $500 gift card winners)
 [Yodlee Interactive](http://developer.yodlee.com/Hackathons/NY_Disrupt_2014)  | $2500 in value of VISA gift cards as well as Dr Dre Beats Pill speakers (1 speaker for each member of the winning team up to 4).
 [Mailjet](http://blog.mailjet.com/post/83100778827/mailjets-gearing-up-for-techcrunch-disrupt) | 1st place: 1 year silver membership, $1500, $350 Fancy gift card, 20 GB karma hotspot; 2nd place: 6 months silver membership, $1000, $150 Fancy gift card, 5 GB Karma hotspot; 3rd place: 6 months bronze membership, $250, 2 GB Karma hotspot
 [Yammer](https://developer.yammer.com/restapi/) | Xbox One, Nokia Lumia Icon
