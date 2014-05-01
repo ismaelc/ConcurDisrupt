@@ -10,6 +10,7 @@ This page contains information and links to all the resources you need for the *
   - [I'm sold.. How do I get started?](#getstarted)
   - [Other API calls/samples to check out](#other)
   - [Sample code](#samplecode)
+  - [Sponsor links and prizes](#sponsors)
 
 <a name="prizes">Prizes to win:</a>
 ----
@@ -260,6 +261,14 @@ Here are details of an HTTP POST call push itinerary to a Concur user's trip lis
 - [Objective-C/iOS](https://github.com/concurtech/mobile-samples)
 - [C#](https://github.com/concurtech/api-samples)
 - [PHP/curl](http://runnable.com/UtWlKVi9ZnsnAABx/upload-receipts-to-concur-using-php-curl) (in Runnable.com)
+
+<a name="sponsors">Sponsor Links and Prizes</a>
+--
+
+Sponsor  | Prizes
+------------- | -------------
+[Concur Technologies](http://bit.ly/ConcurDisrupt)   | $2500 worth of Amazon gift cards ($500 each team member) for best use of Concur APIs + $100 per 10 teams that use Concur APIs (excluding $500 gift card winners)
+[Yodlee Interactive](http://developer.yodlee.com/Hackathons/NY_Disrupt_2014)  | $2500 in value of VISA gift cards as well as Dr Dre Beats Pill speakers (1 speaker for each member of the winning team up to 4).
 
 
 **You're set.  Go win this!**
