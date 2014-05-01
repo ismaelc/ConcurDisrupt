@@ -8,8 +8,8 @@ This page contains information and links to all the resources you need for the *
   - [What is Concur?](#concur)
   - [What information can I get from the Concur APIs?](#apis)
   - [I'm sold.. How do I get started?](#getstarted)
-  - [Sample code](#samplecode)
   - [Other important things to check out](#other)
+  - [Sample code](#samplecode)
 
 <a name="prizes">Prizes to win:</a>
 ----
