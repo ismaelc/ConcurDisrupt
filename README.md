@@ -160,7 +160,7 @@ The steps below show how we can generate an access token for the API call, use t
 Here are details of an HTTP POST call push itinerary to a Concur user's trip list:
 
      Request Type = POST
-     Authorization = csvN5knUcLxfC2WK1YZlWgAqw5g=
+     Authorization = <your access token>
      URI = https://www.concursolutions.com/api/travel/trip/v1.1/
      ContentType = Application/XML
      Body = 
