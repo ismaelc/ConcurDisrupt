@@ -43,7 +43,7 @@ This page contains information and links to all the resources you need for the <
 <li><a href="#concur">What is Concur?</a></li>
 <li><a href="#apis">What information can I get from the Concur APIs?</a></li>
 <li><a href="#getstarted">I'm sold.. How do I get started?</a></li>
-<li><a href="#other">Other important things to check out</a></li>
+<li><a href="#other">Other API calls/samples to check out</a></li>
 <li><a href="#samplecode">Sample code</a></li>
 </ul><h2>
 <a name="prizes-to-win" class="anchor" href="#prizes-to-win"><span class="octicon octicon-link"></span></a><a name="prizes">Prizes to win:</a>
@@ -200,7 +200,7 @@ This page contains information and links to all the resources you need for the <
 <p><img src="https://jfqcza.bn1304.livefilestore.com/y2pty6lMBv5XXLjA_mT5HLpSNea4hVr3AUCRuEI207Wr1otLVxy86klHYuNDP0N-cvb75IFJvicR1jR2K7X3wqJXsH_AQNcEWkp6iO4t3jXRCs/Screen%20Shot%202014-04-22%20at%201.29.22%20PM.png?psid=1" width="600px"></p>
 </li>
 </ol><h2>
-<a name="other-important-things-to-check-out" class="anchor" href="#other-important-things-to-check-out"><span class="octicon octicon-link"></span></a><a name="other">Other important things to check out:</a>
+<a name="other-api-callssamples-to-check-out" class="anchor" href="#other-api-callssamples-to-check-out"><span class="octicon octicon-link"></span></a><a name="other">Other API calls/samples to check out:</a>
 </h2>
 
 <p><strong>How to make a POST call to create an itinerary:</strong></p>
@@ -272,6 +272,38 @@ This page contains information and links to all the resources you need for the <
 &lt;/Itinerary&gt;
 </code></pre>
 
+<p><strong>How to submit an image receipt to Concur (PHP/curl):</strong></p>
+
+<pre><code>&lt;?php
+    // Please refer to 
+    // https://www.concursolutions.com/api/docs/index.html..
+    // #!/ReceiptImages/Post_loginID_post_2
+    // For instructions to generate access token, please refer to 
+    // https://developer.concur.com/api-documentation/oauth-20-0#nativeexample
+
+    $url = "https://www.concursolutions.com/api/v3.0/expense/receiptimages";
+
+    $ch = curl_init();
+
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_VERBOSE, 1);
+
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_POSTFIELDS, file_get_contents('./tmp/image.jpg'));
+    curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+            'Authorization: OAuth &lt;YOUR ACCESS TOKEN HERE&gt;',
+            'Content-Type: image/jpeg'
+    ));
+
+    $response = curl_exec($ch);
+    curl_close($ch);
+
+    echo $response;
+
+?&gt;
+</code></pre>
+
 <h2>
 <a name="sample-code" class="anchor" href="#sample-code"><span class="octicon octicon-link"></span></a><a name="samplecode">Sample code</a>
 </h2>
@@ -280,6 +312,8 @@ This page contains information and links to all the resources you need for the <
 <li><a href="https://github.com/ismaelc/Concur-Windows8-SampleCode">Windows 8 C#/XAML</a></li>
 <li><a href="https://github.com/concurtech/mobile-samples">Objective-C/iOS</a></li>
 <li><a href="https://github.com/concurtech/api-samples">C#</a></li>
+<li>
+<a href="http://runnable.com/UtWlKVi9ZnsnAABx/upload-receipts-to-concur-using-php-curl">PHP/curl</a> (in Runnable.com)</li>
 </ul><p><strong>You're set.  Go win this!</strong></p>
       </section>
     </div>
