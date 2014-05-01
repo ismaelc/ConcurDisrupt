@@ -8,7 +8,7 @@ This page contains information and links to all the resources you need for the *
   - [What is Concur?](#concur)
   - [What information can I get from the Concur APIs?](#apis)
   - [I'm sold.. How do I get started?](#getstarted)
-  - [Other important things to check out](#other)
+  - [Other API calls/samples to check out](#other)
   - [Sample code](#samplecode)
 
 <a name="prizes">Prizes to win:</a>
@@ -152,7 +152,7 @@ The steps below show how we can generate an access token for the API call, use t
 
  <img src='https://jfqcza.bn1304.livefilestore.com/y2pty6lMBv5XXLjA_mT5HLpSNea4hVr3AUCRuEI207Wr1otLVxy86klHYuNDP0N-cvb75IFJvicR1jR2K7X3wqJXsH_AQNcEWkp6iO4t3jXRCs/Screen%20Shot%202014-04-22%20at%201.29.22%20PM.png?psid=1' width="600px" />
 
-<a name="other">Other important things to check out:</a>
+<a name="other">Other API calls/samples to check out:</a>
 --
 
 **How to make a POST call to create an itinerary:**
@@ -222,12 +222,44 @@ Here are details of an HTTP POST call push itinerary to a Concur user's trip lis
       </Booking>
     </Bookings>
     </Itinerary>
+    
+**How to submit an image receipt to Concur (PHP/curl):**
+
+    <?php
+        // Please refer to 
+        // https://www.concursolutions.com/api/docs/index.html..
+        // #!/ReceiptImages/Post_loginID_post_2
+        // For instructions to generate access token, please refer to 
+        // https://developer.concur.com/api-documentation/oauth-20-0#nativeexample
+
+        $url = "https://www.concursolutions.com/api/v3.0/expense/receiptimages";
+
+        $ch = curl_init();
+        
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+        curl_setopt($ch, CURLOPT_VERBOSE, 1);
+        
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, file_get_contents('./tmp/image.jpg'));
+        curl_setopt($ch, CURLOPT_HTTPHEADER, array(
+                'Authorization: OAuth <YOUR ACCESS TOKEN HERE>',
+                'Content-Type: image/jpeg'
+        ));
+
+        $response = curl_exec($ch);
+        curl_close($ch);
+
+        echo $response;
+
+    ?>
 
 <a name="samplecode">Sample code</a>
 --------------
 - [Windows 8 C#/XAML](https://github.com/ismaelc/Concur-Windows8-SampleCode)
 - [Objective-C/iOS](https://github.com/concurtech/mobile-samples)
 - [C#](https://github.com/concurtech/api-samples)
+- [PHP/curl](http://runnable.com/UtWlKVi9ZnsnAABx/upload-receipts-to-concur-using-php-curl) (in Runnable.com)
 
 
 **You're set.  Go win this!**
