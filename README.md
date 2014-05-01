@@ -32,7 +32,7 @@ Fast forward to today, through Concur you can take a picture of your receipts (a
 
 Over 25 million people in 190 countries and over 65 percent of the Fortune 500 trust Concur to process $50 billion in travel and expense data per year.  We help these 25M business travelers manage their travel bookings and expense reports through the Concur Travel and Expense web/mobile app. 
 
-With this global reach, we have opened up the Concur Platform so that partners can provide value to Concur users by having access to their itinerary and expense information.    
+With this global reach, we have opened up the [http://developer.concur.com/](Concur Platform) so that partners can provide value to Concur users by having access to their itinerary and expense information.    
 
 **That's where you come in**.
 
