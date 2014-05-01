@@ -254,6 +254,52 @@ Here are details of an HTTP POST call push itinerary to a Concur user's trip lis
         echo $response;
 
     ?>
+    
+**Posting Report Header:**
+
+    Request Type = POST
+    Authorization = <your access token>
+    URI = https://www.concursolutions.com/api/expense/expensereport/v1.1/report
+    ContentType = Application/XML
+    Body = 
+    <Report xmlns="http://www.concursolutions.com/api/expense/expensereport/2011/03">
+        <Name>Disrupt Hackathon NYC Trip</Name>
+        <Purpose>All Hackathon Expenses</Purpose>
+        <Comment>Includes hotel and meals.</Comment>
+        <OrgUnit1>US</OrgUnit1>
+        <OrgUnit3>Bellevue</OrgUnit3>
+        <Custom1>Client</Custom1>
+        <Custom2>Local</Custom2>
+        <UserDefinedDate>2014-05-01 15:15:07.0</UserDefinedDate>
+    </Report>
+
+**Getting Report Details:**
+
+    Request Type = GET
+    Authorization = <your access token>
+    URI = https://www.concursolutions.com/api/expense/expensereport/v2.0/Reports/?reportcountry=US
+    ContentType = Application/JSON
+
+**Posting Report Entry:**
+
+    Request Type = POST
+    Authorization = <your access token>
+    URI = https://www.concursolutions.com/api/expense/expensereport/v1.1/report/B6F4FD62FB424911A3B8/entry
+    ContentType = Application/XML
+    Body = 
+    <ReportEntries xmlns="http://www.concursolutions.com/api/expense/expensereport/2011/03">
+    <Expense>
+        <CrnCode>USD</CrnCode>
+        <ExpKey>BRKFT</ExpKey>
+        <Description>Starbucks for Breakfast</Description>
+        <TransactionDate>2014-05-01</TransactionDate>
+        <TransactionAmount>15.54</TransactionAmount>
+        <Comment>Breakfast meeting</Comment>
+        <VendorDescription>Starbucks</VendorDescription>
+        <IsPersonal>N</IsPersonal>
+    </Expense>
+    </ReportEntries>
+
 
 <a name="samplecode">Sample code</a>
 --------------
