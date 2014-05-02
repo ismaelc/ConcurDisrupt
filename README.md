@@ -12,7 +12,7 @@ This page contains information and links to all the resources you need for the *
   - [Help! I'm stuck!](#help)
   - [TC Disrupt Hackathon Sponsor API Links and Prizes #hackdisrupt](#sponsors)
   - [Mashup with our fellow sponsors' APIs](#mashup)
-  - [Free beer!](#beer)
+  - <img src="https://zya5wa.bn1304.livefilestore.com/y2p3HORhGentRphjUQpV7eyY2RNeIOhA4tZzWV9d0rmu2X4C47gcLI6FfIKVbchJjDeQqVDWbbxFlYzo30p3glZvaxJ_5YgsicAs25TO7ajMsI/2121284919_1397563722.jpg?psid=1" width="50px" />&nbsp;&nbsp;[Free beer!](#beer)
 
 <a name="prizes">Prizes to win:</a>
 ----
