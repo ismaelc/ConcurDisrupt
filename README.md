@@ -1,5 +1,4 @@
-
-<img src="https://jfqcza.bn1.livefilestore.com/y2paqP_3uagi8J3WlP4-pNt4kJoOzRKmuohSQUsrjaegIaoNbNZJ7EXLEflIO6XYAOKM6scpKxbtXPg10RL5OO3A9bc6m-zERVRHUYB1OEGq8s/Concur_Logo_VT_Color_500px.png?psid=1" width="90px" />&nbsp;&nbsp;&nbsp;&nbsp;Concur Disrupt &nbsp;&nbsp;&nbsp;<img src="https://jfqcza.bn1304.livefilestore.com/y2pGKvnveN12SnmoryMSg647qwDe4JMLBQ6nVqhBnsOUXY7O3i-jhRIHQXY2dVO1sU2hECixL7OwrE78ntEx7msUA_YLr15z3TuD7MUTk459f4/Screen%20Shot%202014-04-23%20at%203.23.18%20PM.png?psid=1" width="150px" />
+<img src="https://jfqcza.bn1.livefilestore.com/y2paqP_3uagi8J3WlP4-pNt4kJoOzRKmuohSQUsrjaegIaoNbNZJ7EXLEflIO6XYAOKM6scpKxbtXPg10RL5OO3A9bc6m-zERVRHUYB1OEGq8s/Concur_Logo_VT_Color_500px.png?psid=1" width="90px" />&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration:none; color:black" name="top" >Concur Disrupt</a> &nbsp;&nbsp;&nbsp;<img src="https://jfqcza.bn1304.livefilestore.com/y2pGKvnveN12SnmoryMSg647qwDe4JMLBQ6nVqhBnsOUXY7O3i-jhRIHQXY2dVO1sU2hECixL7OwrE78ntEx7msUA_YLr15z3TuD7MUTk459f4/Screen%20Shot%202014-04-23%20at%203.23.18%20PM.png?psid=1" width="150px" />
 =========
 <br/>
 This page contains information and links to all the resources you need for the **Concur Contest** in TechCrunch Disrupt 2014 New York:
@@ -154,6 +153,8 @@ The steps below show how we can generate an access token for the API call, use t
 
  <img src='https://jfqcza.bn1304.livefilestore.com/y2pty6lMBv5XXLjA_mT5HLpSNea4hVr3AUCRuEI207Wr1otLVxy86klHYuNDP0N-cvb75IFJvicR1jR2K7X3wqJXsH_AQNcEWkp6iO4t3jXRCs/Screen%20Shot%202014-04-22%20at%201.29.22%20PM.png?psid=1' width="600px" />
 
+[Back to Top](#top)
+
 <a name="other">Other API calls/samples to check out:</a>
 --
 
@@ -301,6 +302,7 @@ Here are details of an HTTP POST call push itinerary to a Concur user's trip lis
     </Expense>
     </ReportEntries>
 
+[Back to Top](#top)
 
 <a name="samplecode">Sample code</a>
 --------------
@@ -309,6 +311,8 @@ Here are details of an HTTP POST call push itinerary to a Concur user's trip lis
 - [C#](https://github.com/concurtech/api-samples)
 - [PHP/curl](http://runnable.com/UtWlKVi9ZnsnAABx/upload-receipts-to-concur-using-php-curl) (in Runnable.com)
 
+[Back to Top](#top)
+
 <a name="help">Help! I'm stuck!</a>
 --
  - If you're getting an error when submitting an expense report, it's likely because you have not set up an Account Code for an expense item type (i.e. Account Code `111` for the `Breakfast` type).  To fix this, go to **Setup -> Expense -> 4)Expense -> Expense Types -> 2) Account Code** (as in the screenshot below), and fill out account codes for expense types you're using.  Remember to hit the Save button (right beside the drop-down with the value DEFAULT).
@@ -316,6 +320,8 @@ Here are details of an HTTP POST call push itinerary to a Concur user's trip lis
  <img src="https://jfqcza.bn1303.livefilestore.com/y2pP9WXkTCzHaovVGVCj0p4K2D3Z2mVS2H6doVFHOS6NXp86kiKYK-upPireIAt7UMR-7zWXoyuYDGV2IJ2d4-HsYFZ1elTzJn3XDzwvXiDxuA/Screen%20Shot%202014-05-01%20at%206.02.26%20PM.png?psid=1" width="600px" />
 
  - Still stuck? Send Chris an email at chris.ismael@concur.com or tweet @chrispogeek and he'll come to your rescue
+
+[Back to Top](#top)
 
 <a name="sponsors">TC Disrupt Hackathon Sponsor API Links and Prizes</a>
 --
@@ -333,5 +339,6 @@ Sponsor  | Prizes
 [Evernote](http://dev.evernote.com/) | Grand Evernote Prize Awarded to the best overall app that connects with the Evernote API. All members (4 max) win: Apple iPad Minis and 1 year of Evernote Premium (each)
 [Crunchbase](http://developer.crunchbase.com/) | Best Use of CrunchBase API – $500
 
+[Back to Top](#top)
 
 **You're set.  Go win this!**
