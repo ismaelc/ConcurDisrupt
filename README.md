@@ -10,6 +10,7 @@ This page contains information and links to all the resources you need for the *
   - [I'm sold.. How do I get started?](#getstarted)
   - [Other API calls/samples to check out](#other)
   - [Sample code](#samplecode)
+  - [Help! I'm stuck!](#help)
   - [TC Disrupt Hackathon Sponsor API Links and Prizes #hackdisrupt](#sponsors)
 
 <a name="prizes">Prizes to win:</a>
@@ -29,11 +30,11 @@ Who starts their contest page with prizes? We do!  Here's what you can win:
 
 Concur started out as a company that helped business travelers manage their receipts and reimbursements.  If you've ever filled out an Excel sheet to itemize all your expense items, or carried a separate envelope to make sure you don't lose all your receipts for reimbursement, then you understand the pain that Concur solves for business travelers.  Using software, Concur set out to remove these unnecessary troubles.  
 
-Fast forward to today, through Concur you can take a picture of your receipts (and rid yourself of the paper receipt mayhem), itemize expense (using OCR and E-Receipts), submit your expense reports, and even book a company policy-compliant travel (*Will my boss approve this?*). This saves companies time and money, and ensures that their business travelers are productive.
+Fast forward to today, through Concur you can take a picture of your receipts (and rid yourself of the paper receipt mayhem), itemize expense (using OCR and E-Receipts), submit your expense reports, and even book a company policy-compliant travel (*"Will my boss approve this?"*). This saves companies time and money, and ensures that their business travelers are productive.
 
 Over 25 million people in 190 countries and over 65 percent of the Fortune 500 trust Concur to process $50 billion in travel and expense data per year.  We help these 25M business travelers manage their travel bookings and expense reports through the Concur Travel and Expense web/mobile app. 
 
-With this global reach, we have opened up the [http://developer.concur.com/](Concur Platform) so that partners can provide value to Concur users by having access to their itinerary and expense information.    
+With this global reach, we have opened up the [Concur Platform](http://developer.concur.com/) so that partners can provide value to Concur users by having access to their itinerary and expense information.    
 
 **That's where you come in**.
 
@@ -307,6 +308,14 @@ Here are details of an HTTP POST call push itinerary to a Concur user's trip lis
 - [Objective-C/iOS](https://github.com/concurtech/mobile-samples)
 - [C#](https://github.com/concurtech/api-samples)
 - [PHP/curl](http://runnable.com/UtWlKVi9ZnsnAABx/upload-receipts-to-concur-using-php-curl) (in Runnable.com)
+
+<a name="help">Help! I'm stuck!</a>
+--
+ - If you're getting an error when submitting an expense report, it's likely because you have not set up an Account Code for an expense item type (i.e. Account Code `111` for the `Breakfast` type).  To fix this, go to **Setup -> Expense -> 4)Expense -> Expense Types -> 2) Account Code** (as in the screenshot below), and fill out account codes for expense types you're using.  Remember to hit the Save button (right beside the drop-down with the value DEFAULT).
+ 
+ <img src="https://jfqcza.bn1303.livefilestore.com/y2pP9WXkTCzHaovVGVCj0p4K2D3Z2mVS2H6doVFHOS6NXp86kiKYK-upPireIAt7UMR-7zWXoyuYDGV2IJ2d4-HsYFZ1elTzJn3XDzwvXiDxuA/Screen%20Shot%202014-05-01%20at%206.02.26%20PM.png?psid=1" width="600px" />
+
+ - Still stuck? Send Chris an email at chris.ismael@concur.com or tweet @chrispogeek and he'll come to your rescue
 
 <a name="sponsors">TC Disrupt Hackathon Sponsor API Links and Prizes</a>
 --
