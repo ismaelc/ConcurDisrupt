@@ -11,6 +11,7 @@ This page contains information and links to all the resources you need for the *
   - [Sample code](#samplecode)
   - [Help! I'm stuck!](#help)
   - [TC Disrupt Hackathon Sponsor API Links and Prizes #hackdisrupt](#sponsors)
+  - [Mashup with our fellow sponsors' APIs](#mashup)
 
 <a name="prizes">Prizes to win:</a>
 ----
@@ -338,6 +339,24 @@ Sponsor  | Prizes
 [Esri](https://developers.arcgis.com) | 
 [Evernote](http://dev.evernote.com/) | Grand Evernote Prize Awarded to the best overall app that connects with the Evernote API. All members (4 max) win: Apple iPad Minis and 1 year of Evernote Premium (each)
 [Crunchbase](http://developer.crunchbase.com/) | Best Use of CrunchBase API – $500
+
+[Back to Top](#top)
+
+<a name="mashup">Mash-up with our fellow sponsors' APIs</a>
+--
+Hit more birds with 1 stone with these Concur integration ideas.
+
+Mashup | Idea
+------------- | -------------
+Concur + Yodlee | Take a list of transactions pulled from the [Yodlee API](http://developer.yodlee.com/Hackathons/NY_Disrupt_2014) and select/insert them into Concur for expenses. Build an app that takes Concur travel expenses and checks against the user's bank and credit card activity so that the user can have status that they've been reimbursed. 
+Concur + Mailjet | Type expenses line by line in email and send them to Concur through [Mailjet](http://blog.mailjet.com/post/83100778827/mailjets-gearing-up-for-techcrunch-disrupt) SMTP
+Concur + Yammer | Find out if your travel overlaps with a co-worker in [Yammer](https://developer.yammer.com/restapi/)) and meet up! Or save on travel expense by sharing a taxi ride (if you're arriving on the same airport at the same time)
+Concur + Microsoft Azure | Use [Azure Mobile Services](http://azure.microsoft.com/en-us/develop/mobile/) as scaffolding for your Concur app
+Concur + Weather (Wunderground) | Determine [weather](http://www.wunderground.com/weather/api/) on a Concur users travel date and destination
+Concur + Pearson | Use [Pearson's Eyewitness Guide API](https://developer.pearson.com/apis/eyewitness-guides/) to augment a Concur user's destination with interesting travel information
+Concur + Esri | Use [Esri's](https://developers.arcgis.com) different mapping layers/functionalities to add visual context to a Concur user's destination
+Concur + Evernote | Auto-upload receipt images dropped in an [Evernote](http://dev.evernote.com/) folder
+Concur + Crunchbase | Check [startups](http://developer.crunchbase.com/) to visit in area of a Concur user's travel destination
 
 [Back to Top](#top)
 
