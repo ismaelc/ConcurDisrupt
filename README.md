@@ -12,6 +12,7 @@ This page contains information and links to all the resources you need for the *
   - [Help! I'm stuck!](#help)
   - [TC Disrupt Hackathon Sponsor API Links and Prizes #hackdisrupt](#sponsors)
   - [Mashup with our fellow sponsors' APIs](#mashup)
+  - [Free beer!](#beer)
 
 <a name="prizes">Prizes to win:</a>
 ----
@@ -359,5 +360,9 @@ Concur + Evernote | Auto-upload receipt images dropped in an [Evernote](http://d
 Concur + Crunchbase | Check [startups](http://developer.crunchbase.com/) to visit in area of a Concur user's travel destination
 
 [Back to Top](#top)
+
+<a name="beer">Free Beer!</a>
+--
+We're giving away coupons for free wine or beer at [Cooper's Tavern](http://www.cooperstavern.com/Coopers_Tavern.html) during the hackathon!  Approach @chrispogeek at the Concur booth to find out how to score these coupons.
 
 **You're set.  Go win this!**
