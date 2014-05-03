@@ -114,6 +114,18 @@ This page contains information and links to all the resources you need for the <
     -H "Authorization: OAuth &lt;insert your access token here&gt;"
 </code></pre>
 
+<p><strong>To get a JSON response</strong>, you can do a GET call like below:</p>
+
+<pre><code>    curl https://www.concursolutions.com/api/v3.0/expense/reportdigests
+    -H "Authorization: OAuth &lt;insert your access token here&gt;"   
+    -H "Accept: application/json"
+</code></pre>
+
+<p><strong>To POST JSON content</strong>, add the following header:</p>
+
+<pre><code>    -H "Content-Type:application/json"
+</code></pre>
+
 <p>To get an access token, send an email to <a href="mailto:chris.ismael@concur.com">chris.ismael@concur.com</a> (our Developer Evangelist)</p>
 
 <p>You can also give our <a href="https://www.concursolutions.com/api/docs/index.html">Swagger API documentation</a> a spin.  We'll cover Swagger in a bit more detail below.</p>
