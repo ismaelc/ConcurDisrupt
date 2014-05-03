@@ -75,6 +75,16 @@ A similar call to get an Itinerary List of a Concur user would be:
         curl https://www.concursolutions.com/api/travel/trip/v1.1
         -H "Authorization: OAuth <insert your access token here>"
 
+**To get a JSON response**, you can do a GET call like below:
+
+        curl https://www.concursolutions.com/api/v3.0/expense/reportdigests
+        -H "Authorization: OAuth <insert your access token here>"   
+        -H "Accept: application/json"
+        
+**To POST JSON content**, add the following header:
+
+        -H "Content-Type:application/json"
+
 To get an access token, send an email to chris.ismael@concur.com (our Developer Evangelist)
 
 You can also give our [Swagger API documentation](https://www.concursolutions.com/api/docs/index.html) a spin.  We'll cover Swagger in a bit more detail below.
