@@ -12,6 +12,7 @@ This page contains information and links to all the resources you need for the *
   - [Help! I'm stuck!](#help)
   - [TC Disrupt Hackathon Sponsor API Links and Prizes #hackdisrupt](#sponsors)
   - [Mashup with our fellow sponsors' APIs](#mashup)
+  - [Contest Terms and Conditions](#terms)
 
 <a name="prizes">Prizes to win:</a>
 ----
@@ -359,5 +360,7 @@ Concur + Evernote | Auto-upload receipt images dropped in an [Evernote](http://d
 Concur + Crunchbase | Check [startups](http://developer.crunchbase.com/) to visit in area of a Concur user's travel destination
 
 [Back to Top](#top)
+
+<a name="terms" href="http://1drv.ms/1moVAR8">Contest Terms and Conditions</a>
 
 **You're set.  Go win this!**
