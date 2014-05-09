@@ -322,6 +322,7 @@ Here are details of an HTTP POST call push itinerary to a Concur user's trip lis
 - [Objective-C/iOS](https://github.com/concurtech/mobile-samples)
 - [C#](https://github.com/concurtech/api-samples)
 - [PHP/curl](http://runnable.com/UtWlKVi9ZnsnAABx/upload-receipts-to-concur-using-php-curl) (in Runnable.com)
+- [Python](https://gist.github.com/ismaelc/9e3b9c3f0334d2b2c68a) (Generate access token)
 
 [Back to Top](#top)
 
