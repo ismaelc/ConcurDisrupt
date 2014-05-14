@@ -323,6 +323,7 @@ Here are details of an HTTP POST call push itinerary to a Concur user's trip lis
 - [C#](https://github.com/concurtech/api-samples)
 - [PHP/curl](http://runnable.com/UtWlKVi9ZnsnAABx/upload-receipts-to-concur-using-php-curl) (in Runnable.com)
 - [Python](https://gist.github.com/Trudeaucj/09c25e79c332e93703a0) (Generate access token)
+- [node.js](https://github.com/sckuo/node-concur)
 
 [Back to Top](#top)
 
